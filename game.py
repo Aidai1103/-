@@ -10,12 +10,13 @@ while True:
     difference = abs(number-guess)
 
     if guess==number:
-        print("Поздравляю! вы угадали число! ")
+        print("Поздравляю! Вы угадали число! ")
+        break 
     elif difference>30:
         print("Холодно!")
     elif difference>20:
-        print("Прохладно")
+        print("Прохладно!")
     elif difference>10:
-        print("Тепло")
+        print("Тепло!")
     else:
-        print("Жарко")
+        print("Жарко!")
